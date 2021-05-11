@@ -16,12 +16,12 @@ def is_digit(d):
 
 def validate_input(d):
     while (True):
-        if is_digit(d) == False:
-        d = input("Please enter a numerical value")
-    elif (int(d) < 0):
-        d = input("Please enter a value greater than 0")
-    else:
-        return int(d)
+        if is_digit(d) is False:
+            d = input("Please enter a numerical value")
+        elif (int(d) < 0):
+            d = input("Please enter a value greater than 0")
+        else:
+            return int(d)
 
 
 d = validate_input(d)
