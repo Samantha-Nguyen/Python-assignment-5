@@ -37,5 +37,5 @@ roundedCircumference = round(circumference, 2)
 
 
 print('The area of your circle is ', roundedArea)
-print('The circumference of your cirlce is', roundedCircumference)
+print('The circumference of your circle is', roundedCircumference)
 print('Thank you for using this program')
