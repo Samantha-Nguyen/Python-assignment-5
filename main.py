@@ -6,7 +6,7 @@ area = 0
 circumference = 0
 
 
-def is_digit(d): 
+def is_digit(d):
     try:
         float(d)
         return True
